@@ -1,5 +1,7 @@
 # Bumble Auto Location Changer
 
+[![Watch the video](https://img.youtube.com/vi/5OSD-UeGAMY/maxresdefault.jpg)](https://www.youtube.com/watch?v=5OSD-UeGAMY)
+
 This repository contains a Tampermonkey/GreaseMonkey userscript that automatically changes your location on Bumble to a specified latitude and longitude. The script is designed to work with Chrome or other browsers that support Tampermonkey and Geolocation-based web apps.
 
 ## Features

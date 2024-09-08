@@ -5,6 +5,7 @@
 // @description  Chrome based tampermonkey extension for location change.
 // @author       Onurcan
 // @match        https://bumble.com/*
+// @match        https://*.bumble.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -15,7 +16,7 @@
     const latitude = 39.6357;
     const longitude = 27.8927;
 
-    // Dismiss browser geolocation API
+    // Tarayıcının Geolocation API'sini geçersiz kıl
     navigator.geolocation.getCurrentPosition = function(success, error) {
         success({
             coords: {
